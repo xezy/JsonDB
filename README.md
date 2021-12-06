@@ -11,3 +11,11 @@ If another instance of the object changed the file in the mean time the changes 
 
 ### load()
 loads the current state of the object. This is automatically done while storing.
+
+## Usage example:
+```
+import JsonDB
+a = JsonDB("C:/temp/tmp.json)
+a['hi'] = 'there'
+a.store()
+```
